@@ -13,4 +13,4 @@
 
 ## Added Selectors
 
-- It gives place(methods) to place logic of combining, filtering and transforming data
+- It gives place(methods) to place logic of combining, filtering and transforming data.
