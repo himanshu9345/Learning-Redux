@@ -14,3 +14,4 @@
 ## Added Selectors
 
 - It gives place(methods) to place logic of combining, filtering and transforming data.
+- Component does know how the states are set up, taken care by selectors.

@@ -1,8 +1,18 @@
 import React from "react";
 import "./TodoListItem.css";
+import styled from "styled-components";
+
+const TodoItemContainer = styled.div`
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 4px 8px grey;
+`;
 
 const TodoListItem = ({ todo, onRemovedPressed, markTaskCompleted }) => (
-  <div className="todo-item-container">
+  <TodoItemContainer>
     <h3>{todo.text}</h3>
     <div className="buttons-container">
       {todo.isCompleted ? null : (
@@ -20,7 +30,7 @@ const TodoListItem = ({ todo, onRemovedPressed, markTaskCompleted }) => (
         Remove
       </button>
     </div>
-  </div>
+  </TodoItemContainer>
 );
 
 export default TodoListItem;
