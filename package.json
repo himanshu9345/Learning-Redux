@@ -22,6 +22,7 @@
     "chai": "^4.2.0",
     "css-loader": "^3.4.2",
     "fetch-mock": "^9.10.5",
+    "ignore-styles": "^5.0.1",
     "mocha": "^8.0.1",
     "node-fetch": "^2.6.0",
     "react-hot-loader": "^4.12.19",

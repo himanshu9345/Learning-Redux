@@ -15,3 +15,11 @@
 
 - It gives place(methods) to place logic of combining, filtering and transforming data.
 - Component does know how the states are set up, taken care by selectors.
+
+## Added Styled Components
+
+- used styled-components library to create styled components of css class.
+
+## preformed testing
+
+- Testing using chai and mocha
